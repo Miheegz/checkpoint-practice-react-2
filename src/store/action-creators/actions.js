@@ -1,6 +1,24 @@
-export const setMammal = undefined;
+export const setMammal = (mammal) => {
 
-export const setBird = undefined;
+  return {
+    type: 'SET_MAMMAL',
+    animal: mammal
+  }
+};
 
-export const setFish = undefined;
+export const setBird = (bird) => {
+
+    return {
+      type: 'SET_BIRD',
+      animal: bird
+    }
+  };
+
+export const setFish = (fish) => {
+
+    return {
+      type: 'SET_FISH',
+      animal: fish
+    }
+  };
 
